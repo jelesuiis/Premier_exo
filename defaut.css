@@ -1,0 +1,120 @@
+/* Polices personnalisées */
+
+@font-face {
+    font-family: "beauty mermaid";
+    src: url('sources/polices/beauty_mermaid.ttf');
+}
+
+@font-face {
+    font-family: "beauty mermaid";
+    src: url('sources/polices/beauty_mermaid_italic.ttf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "beauty mermaid";
+    src: url('sources/polices/beauty_mermaid_bold.ttf');
+    font-style: bold;
+}
+
+/********************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #f6f6f6;
+    margin: 0;
+    font-family: arial;
+}
+
+footer {
+    border-top: 1px solid black;
+    padding: 30px 0;
+    background: #515070;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0; padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: silver;
+}
+
+nav {
+    padding: 15px 0;
+    background: #515070;
+}
+
+#logo {
+    font-size: 45px;
+    font-family: 'beauty mermaid', cursive;
+    text-align: center;
+    background: #ff8e6e;
+    color: white;
+    padding: 15px 0;
+}
+
+#photo_recette {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+#ingredients {
+    background: #393b44;
+    color: white;
+    padding: 15px;
+}
+
+#etapes {
+    padding: 15px;
+}
+
+#colonne_droite {
+    width: 67%;
+    margin-left: 3%;
+    display: inline-block;
+}
+
+#presentation {
+    width: 50%;
+    vertical-align: top;
+}
+#presentation a {
+    color: #ff8e6e;
+}
+
+#lipsum {
+    width: 47%;
+    margin-left: 3%;
+    text-align: justify;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 24px -11px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 24px -11px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 24px -11px rgba(0,0,0,0.3);
+    padding: 15px;
+    background: #f1f3f8;
+}
+
+p {
+    display: inline-block;
+}
+
+section {
+    margin: 30px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
